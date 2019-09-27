@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Runners.TestRunner" time="1.077" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Runners.TestRunner" time="0.074" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\NAGA~1.NAG\AppData\Local\Temp\surefire1260295627231562975\surefirebooter7288193938325576109.jar C:\Users\naga.nagularapu\AppData\Local\Temp\surefire1260295627231562975 2019-09-27T13-17-22_006-jvmRun1 surefire6670378571998266197tmp surefire_02099173579193297476tmp"/>
+    <property name="sun.java.command" value="C:\Users\NAGA~1.NAG\AppData\Local\Temp\surefire5226210378475753140\surefirebooter1199079615734236904.jar C:\Users\naga.nagularapu\AppData\Local\Temp\surefire5226210378475753140 2019-09-27T15-30-15_345-jvmRun1 surefire3151036639027947682tmp surefire_042243065008147091tmp"/>
     <property name="surefire.test.class.path" value="C:\AutomationPratice\BDDProj\target\test-classes;C:\AutomationPratice\BDDProj\target\classes;C:\Users\naga.nagularapu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\naga.nagularapu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.0\selenium-java-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.0\selenium-api-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.0\selenium-chrome-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.0\selenium-edge-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.0\selenium-firefox-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.0\selenium-ie-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.0\selenium-opera-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.0\selenium-remote-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.0\selenium-safari-driver-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.0\selenium-support-3.7.0.jar;C:\Users\naga.nagularapu\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\naga.nagularapu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\naga.nagularapu\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\naga.nagularapu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naga.nagularapu\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\naga.nagularapu\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\naga.nagularapu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\naga.nagularapu\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\naga.nagularapu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\naga.nagularapu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\naga.nagularapu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\naga.nagularapu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\naga.nagularapu\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\naga.nagularapu\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\naga.nagularapu\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\naga.nagularapu\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\naga.nagularapu\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\naga.nagularapu\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\naga.nagularapu\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.0\cucumber-extentsreport-3.1.0.jar;C:\Users\naga.nagularapu\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\naga.nagularapu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\naga.nagularapu\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\naga.nagularapu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\naga.nagularapu"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\NAGA~1.NAG\AppData\Local\Temp\surefire1260295627231562975\surefirebooter7288193938325576109.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NAGA~1.NAG\AppData\Local\Temp\surefire5226210378475753140\surefirebooter1199079615734236904.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,12 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Given open the saas application" classname="Scenario: Customer open site and login" time="0.002"/>
-  <testcase name="When enter the login credentials" classname="Scenario: Customer open site and login" time="0"/>
-  <testcase name="Then user lands on home page" classname="Scenario: Customer open site and login" time="0"/>
-  <testcase name="Scenario: Customer open site and login" classname="Scenario: Customer open site and login" time="0.003"/>
-  <testcase name="Given User open the registartion screen" classname="Scenario: User creates the account" time="0"/>
-  <testcase name="When enter the user detals" classname="Scenario: User creates the account" time="0"/>
-  <testcase name="Then lands on success screen" classname="Scenario: User creates the account" time="0"/>
-  <testcase name="Scenario: User creates the account" classname="Scenario: User creates the account" time="0.004"/>
+  <testcase name="initializationError" classname="Runners.TestRunner" time="0.005">
+    <error message="Couldn&apos;t load plugin class: com.vimalselvam.cucumber.listener.ExtentCucumberFormatter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Couldn't load plugin class: com.vimalselvam.cucumber.listener.ExtentCucumberFormatter
+Caused by: java.lang.ClassNotFoundException: com.vimalselvam.cucumber.listener.ExtentCucumberFormatter
+</error>
+  </testcase>
 </testsuite>
