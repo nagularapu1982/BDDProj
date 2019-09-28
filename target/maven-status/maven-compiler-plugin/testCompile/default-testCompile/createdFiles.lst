@@ -1,4 +1,2 @@
-Steps\RegistrationPageSteps.class
 Steps\Hooks.class
-Steps\StepDefinations.class
 Runners\TestRunner.class

@@ -23,12 +23,9 @@ public class Hooks {
     }
 
     @After
-
     public void AfterSteps() throws InterruptedException {
-
         Thread.sleep(4000);
         driver.quit();
-//        driver.close();
 
 
     }

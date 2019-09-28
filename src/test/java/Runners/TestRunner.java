@@ -7,7 +7,6 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -18,9 +17,7 @@ import java.util.Date;
         tags = {"@FunctionaFlow"},
         glue= {"Steps"},
        plugin = { "com.cucumber.listener.ExtentCucumberFormatter:"},
-//        plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:"},
-//        @CucumberOptions( plugin = { "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:path/report.html"} )
-        monochrome = true
+       monochrome = true
 
 )
 
