@@ -15,6 +15,7 @@ import java.util.Date;
 @CucumberOptions(
 
         features = "src/test/resources/Features",
+        tags = {"@FunctionaFlow"},
         glue= {"Steps"},
        plugin = { "com.cucumber.listener.ExtentCucumberFormatter:"},
 //        plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:"},
@@ -25,7 +26,7 @@ import java.util.Date;
 
 public class TestRunner {
     static String ReportName="NNR";
-    static String logFileName = new SimpleDateFormat("yyyyMMddHHmm'.txt'").format(new Date());
+    static String logFileName = new SimpleDateFormat("yyyyMMddHHmm").format(new Date());
     @BeforeClass
     public static void setup() {
         ExtentProperties extentProperties = ExtentProperties.INSTANCE;

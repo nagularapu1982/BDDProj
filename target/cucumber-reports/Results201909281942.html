@@ -13,7 +13,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>ToolsQA - Cucumber Framework</title>
+	<title>Ebay - Test Automation Framework</title>
 
 	<style type='text/css'>
 		/* json-tree */
@@ -44,13 +44,13 @@
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
-		<span class='report-name'>ToolsQA - Cucumber Report</span>
+		<span class='report-name'>Motors - Regression Report</span>
 		<!-- report headline -->
 		<span class='report-headline'></span>
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 27, 2019 03:42:51 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 28, 2019 07:42:58 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -77,7 +77,7 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@Functional</a></li>
+					<li><a href='#'>@FunctionaFlow</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -118,7 +118,7 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -132,7 +132,7 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -146,7 +146,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>10</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -169,8 +169,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Sample automation script</span>
-						<span class='test-time'>Sep 27, 2019 03:43:03 PM</span>
+						<span class='test-name'>Search the vehicle based on Postal code and model type</span>
+						<span class='test-time'>Sep 28, 2019 07:43:11 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -180,64 +180,68 @@
     <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='2' status='pass'>
-    <div class='category-list'>
-        <span class='category label'>@Functional</span>
-    </div>
-    <span class='duration right label'>0h 0m 0s+154ms</span>
+<div class='scenariooutline node' test-id='2' status='pass'>
+    <span class='duration right label'>0h 0m 24s+223ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Customer open site and login</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: Vehicle search based on the Postal code and verify the results for postal code: <Postal Code> and type: <Model></div>
     </div>
     <ul class='steps'>
-        <li test-id='3' class='node given pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given open the saas application</div>
-                <div class="node-step">passed</div>
-        </li>
-        <li test-id='4' class='node when pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When enter the login credentials</div>
-                <div class="node-step">passed</div>
-        </li>
-        <li test-id='5' class='node then pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then user lands on home page</div>
-                <div class="node-step">passed</div>
-        </li>
-    </ul>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>Second script</span>
-						<span class='test-time'>Sep 27, 2019 03:43:18 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class="sr-filters bdd-filters">
-    <a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
-    <a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
-    <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
-    <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
-</div>
-<div class='scenario node' test-id='7' status='pass'>
-    <div class='category-list'>
-        <span class='category label'>@Functional</span>
-    </div>
-    <span class='duration right label'>0h 0m 0s+4ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: User creates the account</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='8' class='node given pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given User open the registartion screen</div>
-                <div class="node-step">passed</div>
-        </li>
-        <li test-id='9' class='node when pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When enter the user detals</div>
-                <div class="node-step">passed</div>
-        </li>
-        <li test-id='10' class='node then pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then lands on success screen</div>
-                <div class="node-step">passed</div>
+        <li test-id='3' class='node scenario pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Vehicle search based on the Postal code and verify the results for postal code: OX144RY and type: Galaxy</div>
+            <ul class='gc steps'>
+                    <li test-id='4' class='gc given pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given successfully open Ebay motors application</h6>
+                            <div class="node-step"><table class='runtime-table table-striped table'><tr><td>Title</td><td>Heading</td></tr><tr><td>Motors.co.uk - buy and sell new & used cars safely</td><td>Find the right car for you</td></tr></table></div>
+                            <div class="node-step">User successfully open the application and verified the title and heading</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='5' class='gc when pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When enter the postal code as OX144RY and select the vehicle company as Ford</h6>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='6' class='gc then pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then user should be present with search cars results page with url search/car/</h6>
+                            <div class="node-step">User successfully Assert the search/car/ in the URL of the page</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='7' class='gc then pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Get the results page count and print the results page count</h6>
+                            <div class="node-step">No of the search results on the page: 25</div>
+                            <div class="node-step">The page count of the search results: 2410</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='8' class='gc when pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When apply a model filter as Galaxy</h6>
+                            <div class="node-step">User successfully applied the Galaxy model on results</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='9' class='gc then pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Get the results page count and print the results page count</h6>
+                            <div class="node-step">No of the search results on the page: 25</div>
+                            <div class="node-step">The page count of the search results: 2410</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='10' class='gc when pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When select to see full details of first result</h6>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='11' class='gc then pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then output vehicle title and variant</h6>
+                            <div class="node-step">Title of the vehicle from first result set is FORD, GALAXY</div>
+                            <div class="node-step">Varient of the vehicle from first result set is 2017 (67) 2.0 TDCi Titanium (s/s) 5dr</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='12' class='gc and pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And verify the model as Galaxy</h6>
+                            <div class="node-step">Assert the vehicle model from first results</div>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='13' class='gc and pass' status='pass'>
+                        <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And print vehicle distance from postcode as OX144RY</h6>
+                            <div class="node-step">3 Mile away from OX144RY</div>
+                            <div class="node-step">passed</div>
+                    </li>
+            </ul>
         </li>
     </ul>
 </div>
@@ -283,14 +287,14 @@
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@Functional</span>
+						<span class='category-name'>@FunctionaFlow</span>
 						<span class='category-status right'>
-						<span class='label pass'>2</span>
+						<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 2</span>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
 							
 							
 						</div>
@@ -305,13 +309,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 27, 2019 03:43:03 PM</td>
-										<td class='linked' test-id='2'>Sample automation script.Customer open site and login</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Sep 27, 2019 03:43:18 PM</td>
-										<td class='linked' test-id='7'>Second script.User creates the account</td>
+										<td>Sep 28, 2019 07:43:11 PM</td>
+										<td class='linked' test-id='3'>Search the vehicle based on Postal code and model type.Vehicle search based on the Postal code and verify the results for postal code: <Postal Code> and type: <Model>.Vehicle search based on the Postal code and verify the results for postal code: OX144RY and type: Galaxy</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -336,37 +335,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>10</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 27, 2019 03:42:51 PM</div>
+					<div class='panel-lead'>Sep 28, 2019 07:42:58 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 27, 2019 03:43:23 PM</div>
+			 		<div class='panel-lead'>Sep 28, 2019 07:43:41 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 32s+306ms</div>
+					<div class='panel-lead'>0h 0m 43s+270ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -382,8 +381,8 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@Functional</td>
-							<td>2</td>
+							<td>@FunctionaFlow</td>
+							<td>1</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -401,16 +400,16 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 2,
-				passParent: 2,
+                parentCount: 1,
+				passParent: 1,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
 				exceptionsParent: 0,
-				childCount: 2,
-				passChild: 2,
+				childCount: 1,
+				passChild: 1,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -419,8 +418,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 6,
-				passGrandChild: 6,
+				grandChildCount: 10,
+				passGrandChild: 10,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -433,7 +432,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Sample automation script":0.154,"Second script":0.004
+			        "Search the vehicle based on Postal code and model type":24.223
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

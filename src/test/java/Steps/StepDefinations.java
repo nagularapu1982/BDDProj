@@ -1,5 +1,6 @@
 package Steps;
 
+import com.cucumber.listener.Reporter;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -8,6 +9,7 @@ public class StepDefinations {
 
     @Given("^open the saas application$")
     public void open_the_saas_application() {
+        Reporter.addStepLog("Reporter Step Log message goes here");
         System.out.println("Application Opened");
     }
 

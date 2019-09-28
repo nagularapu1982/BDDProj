@@ -2,6 +2,7 @@ package Steps;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,15 +10,15 @@ import java.util.concurrent.TimeUnit;
 
 public class Hooks {
 
-    WebDriver driver;
+    static WebDriver driver;
     @Before
     public void BeforeSteps() {
-        System.out.println("Browser opem");
+        System.out.println("Launching  the application");
         System.setProperty("webdriver.chrome.driver","src/test/resources/Drivers/chromedriver-32.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("http://www.shop.demoqa.com");
+        driver.get("https://www.motors.co.uk");
 
     }
 
@@ -28,7 +29,6 @@ public class Hooks {
         Thread.sleep(4000);
         driver.quit();
 //        driver.close();
-        System.out.println("after scenario");
 
 
     }
